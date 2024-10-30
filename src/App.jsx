@@ -1,11 +1,12 @@
-const Hello = () => {
-  return (
-    <h1>Inicio Drip Store</h1>
-  )
-}
+import React from "react";
+import Header from "./components/Header/Header";
+
 const App = () => {
   return (
-    <Hello />
-  )
-}
+    <>
+    <Header />
+    </>
+  );
+};
+
 export default App;
