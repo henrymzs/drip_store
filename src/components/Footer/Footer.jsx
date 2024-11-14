@@ -3,7 +3,7 @@ import InfoComponent from "./InfoComponent";
 import './Footer.css';
 import Facebook from '../../assets/icons/Facebook.png';
 import Instagram from '../../assets/icons/Instagram.png';
-import Twitter from '../../assets/icons/Twitter.png';
+import Twitter from '../../assets/icons/twitter.png';
 import LogoFooter from '../../assets/Logos/logo-footer.svg';
 
 const informations = [
