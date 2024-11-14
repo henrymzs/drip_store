@@ -1,0 +1,76 @@
+.collection {
+    margin: 38px 100px 0 100px;
+}
+
+.imagensCollection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .Col1, .Col2, .Col3 {
+        width: 405px;
+        height: 251px;
+        background-image: url(../../assets/collections/collection_1.png);
+        border-radius: 8px;
+        padding: 34px 30px 35px 30px;
+
+        .colPromo {
+            width: 96px;
+            height: 32px;
+            border-radius: 29px;
+            padding: 5px 15px;
+            gap: 10px;
+            background-color: var(--warning);
+            margin-bottom: 10px;
+
+            p {
+                font-weight: 700;
+                font-size: 14px;
+                letter-spacing: 0.75px;
+                color: var(--darkGray2);
+            }
+        }
+
+        .h3Limit {
+            width: 180px;
+            margin-bottom: 20px;
+
+            h3 {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 36px;
+                letter-spacing: 1px;
+                color: var(--darkGray);
+            }
+        }
+
+        a {
+            button {
+                width: 153px;
+                height: 48px;
+                border-radius: 8px;
+                background-color: var(--lightGray3);
+                color: var(--primary);
+                font-size: 16px;
+                letter-spacing: .75px;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .Col2 {
+        background-image: url(../../assets/collections/collection_2.png);
+    }
+
+    .Col3 {
+     
+        background-image: url(../../assets/collections/collection_3.png);
+    }
+}
+.Col1 a, .Col2 a, .Col3 a {
+     button:hover {
+        background-color: var(--primary);
+        color: var(--white);
+    }
+}

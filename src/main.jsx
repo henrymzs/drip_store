@@ -6,7 +6,7 @@ import '../src/index.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>  {/* (entender o pq)foi necessario BrowserRouter para que os components funcionassem,usenavigate e navlink agr funciona */}
+    <BrowserRouter>  
       <App />
     </BrowserRouter>
   </StrictMode>
