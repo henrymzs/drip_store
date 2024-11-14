@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { CiSearch } from 'react-icons/ci';
 import Nav from './Nav';
+import Menu from './Menu';
 import Logo from './Logo';
 import Button from './Button';
 import CartCard from './CartCard';
@@ -15,21 +16,13 @@ export default function Header() {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
 
   const navigate = useNavigate();
-
-  const handleOpenMenu = () => {
-    setOpen(!open);
-    setOpenSearch(false);
-  };
-
+ 
   const handleOpenSearch = () => {
     setOpen(false);
     setOpenSearch(!openSearch);
   };
 
-  const handleSearchSubmit = (e) => {
-    e.preventDefault();
-  };
-
+ 
   const handleEntrar = () => navigate("/login");
   const handleRegister = () => navigate("/register");
 
@@ -38,11 +31,11 @@ export default function Header() {
   return (
     <header className="py-5 md:flex-col bg-white fixed md:relative w-full z-50 top-0 shadow-md md:shadow-none">
       <div className="flex justify-between items-center px-5">
-        <Nav onClick={handleOpenMenu} />
+        <Menu  />
         <Logo type="logoHeader" />
 
         <div className="hidden md:flex items-center justify-around bg-neutral-200/80 rounded-md w-1/2">
-          <form onSubmit={handleSearchSubmit} className="flex items-center w-full">
+          <form className="flex items-center w-full">
             <input
               id="search"
               type="text"
@@ -115,8 +108,16 @@ export default function Header() {
         </div>
       </div>
 
-      
-      
+      <Nav className="hidden md:block" />
+      {open && (
+        <>
+          <div
+            className="fixed top-[10%] inset-0 z-40 bg-black bg-opacity-50  md:hidden"
+            onClick={handleOpenMenu}
+          ></div>
+          <Nav className="fixed overflow-scroll z-50 bg-white w-3/4 h-full p-5 top-[9.2%] left-0 shadow-lg md:hidden" />
+        </>
+      )}
     </header>
   );
 }
