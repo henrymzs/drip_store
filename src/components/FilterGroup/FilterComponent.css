@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.filterComponent {
+    margin-bottom: 20px;
+  }
+  
+  .filterTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+    font-family: "Inter";
+    font-size: 14px;
+   
+  }
+  
+  .filterOptions {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+    line-height: 22px;
+   
+    
+  }
+  
+  .filterLabel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #474747;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .filterInput {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  input[type="checkbox"]:checked + label::before {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  input[type="checkbox"]:checked {
+    accent-color: var(--primary);
+  }
+  
+  input[type="radio"]:checked + label::before {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  input[type="radio"]:checked {
+    accent-color: var(--primary);
+  }
