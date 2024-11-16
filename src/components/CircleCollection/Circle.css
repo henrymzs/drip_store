@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.circleCollection {
+    padding-top: 100px;
+    padding-bottom: 123px;
+}
+
+.circleCollection h2 {
+    font-family: 'Inter';
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttons p {
+    font-family: 'Inter';
+    color: var(--darkGray2);
+    margin-top: 12px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 48px;
+}
+
+button img {
+    margin-left: 60px;
+}
+
+
+.buttons buttons:hover {
+    transform:scale(1.1);
+}
+
+.roupas p {
+    text-align: center;
+}
