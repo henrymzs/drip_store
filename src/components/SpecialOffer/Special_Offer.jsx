@@ -1,5 +1,5 @@
-import Sapato1 from "../../assets/section/tenis.svg"
-import "./Special_offer.css"
+import Sapato1 from "../../assets/section/tenisamarelo.svg"
+import "./Special_Offer.css"
 
 
 export default function OfertaEspecial() {

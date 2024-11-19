@@ -1,5 +1,5 @@
 import React from 'react';
-import imageCard from '../../assets/collections/tenis.svg'
+import imageCard from '../../assets/section/tenis.svg'
 import './ProductCard.css'
 
 const baseProducts = {

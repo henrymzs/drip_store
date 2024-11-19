@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { Carousel } from "bootstrap";
+import { Carousel } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Gallery.css';
 
-import SneakersGallery from '../../assets/images/Sneakers-Gallery.png'
-import ArrowRight from '../../assets/carrosel/arrow-rightt.svg'
+import SneakersGallery from '../../assets/carrosel/SneakersGallery.png'
+import ArrowRight from '../../assets/carrosel/arrow-right.svg'
 import ArrowLeft from '../../assets/carrosel/arrow-left.svg'
 
-import CircleGallery from '../../assets/images/CircleGallery.png'
+import CircleGallery from '../../assets/carrosel/CircleGallery.png'
 
 const images = [
     {src: SneakersGallery, alt: 'Imagem 1'},
@@ -137,7 +137,7 @@ const handleSelect = (selectedIndex) => {
                 </a>
               </div>
               <div className='galleryImagem'>
-                <img src={images[2].src} alt={images[activeIndex].alt} />
+                <img src={images[3].src} alt={images[activeIndex].alt} />
               </div>
               <div className='circleGallery'>
                 <img src={CircleGallery} alt="" />
