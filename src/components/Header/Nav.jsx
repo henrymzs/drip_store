@@ -2,7 +2,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 /*duas funcionalidades do pacote react-router-dom, 
 navlink cria links de navegação com propriedades extras, da pra adicionar class especial ao link ativo
  useNavigate permite navegar entre paginas*/ 
- 
+ import './Header.css'
 const Nav = () => {
     
     
@@ -14,7 +14,7 @@ const Nav = () => {
     const handleRegister = () => navigate("register")
 
     return (
-        <nav>
+        <nav className="Header">
 
             <ul className="pt-4 py-3 px-3 md:px-10 flex flex-col md:flex-row gap-5 md:gap-10 items-start justify-start">
                 
@@ -25,7 +25,7 @@ const Nav = () => {
                     to="/"
                     className={({ isActive }) =>
                         isActive
-                            ? 'text-primary font-bold text-lg underline underline-offset-8 scale-110 transition-all'
+                            ? 'text-pink-700 font-bold text-lg underline underline-offset-8 scale-110 transition-all '
                             : 'text-dark-gray hover:underline hover:underline-offset-2 text-lg font-medium hover:scale-105 hover:text-primary transition-colors'
                     }
                 >
@@ -35,7 +35,7 @@ const Nav = () => {
                 <NavLink
                     to={"/products/"}
                     className={({ isActive }) =>
-                    isActive ? 'text-primary font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-dark-gray  hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg hover:text-primary transition-colors'
+                    isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700  hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg hover:text-primary transition-colors no-underline'
                     }
                 >
                     Produtos
@@ -44,7 +44,7 @@ const Nav = () => {
                 <NavLink
                     to="/construction/"
                     className={({ isActive }) =>
-                    isActive ? 'text-primary font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-dark-gray hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg md:text-lg hover:text-primary transition-colors'
+                    isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700 hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg md:text-lg hover:text-primary transition-colors no-underline'
                     }
                 >
                     Categorias
@@ -53,7 +53,7 @@ const Nav = () => {
                 <NavLink
                     to="/myproducts/"
                     className={({ isActive }) =>
-                    isActive ? 'text-primary font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-dark-gray hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg md:text-lg hover:text-primary transition-colors '
+                    isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700 hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg md:text-lg hover:text-primary transition-colors no-underline'
                     }
                 >
                     Meus produtos
@@ -65,7 +65,7 @@ const Nav = () => {
 
                 <div className="py-1 w-[62vw] md:w-[90vw] m-a border-t m-auto border-slate-950/50 "></div>
 
-                <button onClick={handleEntrar} className="w-full py-3 px-5 bg-primary text-white text-xl font-medium rounded-md hover:bg-pink-500 hover:scale-105">Entrar</button>
+                <button onClick={handleEntrar} className="w-full py-3 px-5 bg-slate-800	 text-white text-xl font-medium rounded-md hover:bg-pink-500 hover:scale-105">Entrar</button>
 
                 <button
                     onClick={handleRegister}

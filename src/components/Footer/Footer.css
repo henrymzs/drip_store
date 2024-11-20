@@ -8,7 +8,7 @@
 .footer-container{
     background-color: #1f1f1f;
     color: white;
-    height: 500px;
+    height: 530px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -50,6 +50,14 @@
     margin-top: 70px;
     margin-right: 72px;
 }
+.elementos a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.elementos a:hover {
+    text-decoration: underline;
+}
 
 .elementos h2 {
     font-size: 18px;
@@ -64,6 +72,7 @@
 
 .elementos li {
     margin-top: 28px;
+    
 }
 
 .primeira-parte {

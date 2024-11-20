@@ -1,5 +1,5 @@
 .galleryPrincipal {
-    width: 1440px;
+    width: 1880px;
     height: 681px;
     padding: 78px 37px 0 100px;
     background-color: var(--lightGray3);
@@ -45,12 +45,13 @@
   }
  }
 
+
  a {
     button {
         background-color: var(--primary);
         width: 220px;
         height: 48px;
-        border-radius: 4px;
+        border-radius: 8px;
         color: var(--white);
         font-weight: bold;
         font-size: 14px;
@@ -76,22 +77,22 @@
   
   .carousel-control-prev,
   .carousel-control-next {
-    width: 50px;
+    width: 100px;
   }
 
   .carousel-indicators {
-position: absolute;
-display: flex;
-justify-content: center;
-gap: 5px;
-margin-bottom: 53px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 53px;
   }
 
   .indicator-btn {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: var(--lightGray3);
+    background-color: var( --lightGray);
     border: none;
     cursor: pointer;
   }
@@ -101,7 +102,7 @@ margin-bottom: 53px;
   }
 
   .galleryTexto a {
-  button:hover {
-    background-color: var(--primary);
+    button:hover {
+      background-color: var(--tertiary);
   }
 }

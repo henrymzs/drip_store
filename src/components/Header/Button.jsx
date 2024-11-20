@@ -1,11 +1,10 @@
 import React from 'react';
-
+import './Header.css'
 export default function Button({ text, type = "button", onClick }) {
     return (
-        <button
+        <button className='bg-pink-600 py-2 px-4 text-white rounded-md  hover:scale-105'
             type={type}
             onClick={onClick}
-            className="p-2 w-32 md:w-24 rounded-xl bg-primary text-white hover:scale-105 hover:cursor-pointer hover:bg-pink-500 transition-colors"
         >
             Entrar
         </button>

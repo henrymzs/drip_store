@@ -51,7 +51,7 @@ export default function Header() {
 
         <div className="hidden md:flex md:items-center gap-5">
           <button
-            className="lg:text-lg md:text-sm underline underline-offset-4 hover:text-primary hover:font-medium hover:transition-colors hover:scale-105 ease-out"
+            className=" lg:text-lg md:text-sm underline underline-offset-4 hover:text-primary hover:font-medium hover:transition-colors hover:scale-105 ease-out"
             onClick={handleRegister}
           >
             Cadastre-se
@@ -93,14 +93,14 @@ export default function Header() {
                 <CartCard 
                     className="flex flex-row"
                     image={nikeG} 
-                    title="K-swiss V8 - Masculino" 
+                    title="K-swiss V8" 
                     quantity={2}
                     price={219.00}
                     total={219.00}
                 />
                 <div className="flex justify-between items-center pt-5">
-                  <NavLink to="/cart" className='text-sm font-medium text-dark-gray-2 underline'>Esvaziar</NavLink>
-                  <NavLink to="/cart" className="p-2 rounded-xl bg-primary text-white hover:scale-105 hover:cursor-pointer hover:bg-pink-500 transition-colors">Ver Carrinho</NavLink>
+                  <NavLink to="/cart" className='text-sm font-medium text-black no-underline'>Esvaziar</NavLink>
+                  <NavLink to="/cart" className="p-2 rounded-xl no-underline bg-pink-700 text-white hover:scale-105 hover:cursor-pointer hover:bg-pink-500 transition-colors">Ver Carrinho</NavLink>
                 </div>
               </div>
             )}

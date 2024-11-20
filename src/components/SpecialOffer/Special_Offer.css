@@ -29,8 +29,8 @@
 
 
 .textos button {
-    background-color: #C92071;
-    color: #F5F5F5;
+    background-color: var(--primary);
+    color: var(--lightGray3);
     width: 200px;
     height: 40px;
     border-radius: 10px;
@@ -41,7 +41,7 @@
 
 
 .textos h4 {
-    color: #C92071;
+    color: var(--primary);
     font-size: 14px;
     width: 116px;
     height: 22px;
@@ -50,15 +50,17 @@
 }
 
 .textos h1 {
-    color: #474747;
+    color: var(--darkGray2);
     font-size: 48px;
     font-weight: bold;
+    line-height: 50px;
 
 
 }
 
 .textos p {
-    color: #474747;
+    color: var(--darkGray2);
+    line-height: 30px;
 
 }
 

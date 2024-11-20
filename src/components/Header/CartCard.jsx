@@ -45,7 +45,7 @@ export default function CartCard({
                             </p>
                         )}
                         {size && (
-                            <p className="text-sm font-medium text-light-gray">
+                            <p className="text-sm font-medium text-light-gray ">
                                 Tamanho: <span className="text-dark-gray">{size}</span>
                             </p>
                         )}
