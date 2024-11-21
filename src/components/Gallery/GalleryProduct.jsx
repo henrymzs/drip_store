@@ -4,7 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './GalleryProduct.css';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import SneakersViewPage from '../../assets/carrosel/SneakersViewPage.png'
+=======
+import SneakersView from '../../assets/carrosel/SneakersGallery.png'
+>>>>>>> 06d6360e073c94af377fd4467edad860fc89da03
 =======
 import SneakersView from '../../assets/carrosel/SneakersGallery.png'
 >>>>>>> 06d6360e073c94af377fd4467edad860fc89da03
