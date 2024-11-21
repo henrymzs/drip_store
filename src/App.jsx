@@ -1,3 +1,4 @@
+import './index.css';
 import './main.css' 
 import Rotas from './pages/Rotas.jsx';
 import { BrowserRouter } from 'react-router-dom';

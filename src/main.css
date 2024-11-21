@@ -1,3 +1,5 @@
+
+
 :root {
 
     --primary: #C92071;
@@ -5,7 +7,10 @@
     --tertiary: #991956;
     --error: #EE4266;
     --success: #52CA76;
-    --warning:  #E7FF86;
+    --warning: #F6AA1C;
+    --section: #E7FF86;
+
+    ;
     ;
 
     --darkGray: #1F1F1F;
