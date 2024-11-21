@@ -3,15 +3,8 @@ import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './GalleryProduct.css';
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-import SneakersViewPage from '../../assets/carrosel/SneakersViewPage.png'
-=======
+
 import SneakersView from '../../assets/carrosel/SneakersGallery.png'
->>>>>>> 06d6360e073c94af377fd4467edad860fc89da03
-=======
-import SneakersView from '../../assets/carrosel/SneakersGallery.png'
->>>>>>> 06d6360e073c94af377fd4467edad860fc89da03
 import ArrowRight from '../../assets/carrosel/arrow-right.svg'
 import ArrowLeft from '../../assets/carrosel/arrow-left.svg'
 import Gallery from './Gallery';
