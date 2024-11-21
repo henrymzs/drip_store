@@ -2,7 +2,6 @@ import { NavLink, useNavigate } from "react-router-dom";
 /*duas funcionalidades do pacote react-router-dom, 
 navlink cria links de navegação com propriedades extras, da pra adicionar class especial ao link ativo
  useNavigate permite navegar entre paginas*/ 
- import './Header.css'
 const Nav = () => {
     
     
