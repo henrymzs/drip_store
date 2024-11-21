@@ -1,6 +1,6 @@
 import './BuyBox.css'
 import Estrela from '../../assets/images/Stars.png'
-import Estrela1 from '../../assets/images/Stars1.png'
+import Estrela1 from '../../assets/images/Star1.png'
 import ProductOptionsSquare from '../ProductOptions/ProductOptionsSquare'
 import ProductOptionsCircle from '../ProductOptions/ProductOptionsCircle'
 

@@ -3,17 +3,17 @@ import { Carousel } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './GalleryProduct.css';
 
-import SneakersViewPage from '../../assets/carrosel/SneakersView.png'
-import ArrowRight from '../../assets/icons/arrow-right.svg'
-import ArrowLeft from '../../assets/icons/arrow-left.svg'
+import SneakersViewPage from '../../assets/carrosel/SneakersViewPage.png'
+import ArrowRight from '../../assets/carrosel/arrow-right.svg'
+import ArrowLeft from '../../assets/carrosel/arrow-left.svg'
 import Gallery from './Gallery';
 
 const images = [
-    { src: SneakersView, alt: 'Imagem 1' },
-    { src: SneakersView, alt: 'Imagem 2' },
-    { src: SneakersView, alt: 'Imagem 3' },
-    { src: SneakersView, alt: 'Imagem 4' },
-    { src: SneakersView, alt: 'Imagem 5' }
+    { src: SneakersViewPage, alt: 'Imagem 1' },
+    { src: SneakersViewPage, alt: 'Imagem 2' },
+    { src: SneakersViewPage, alt: 'Imagem 3' },
+    { src: SneakersViewPage, alt: 'Imagem 4' },
+    { src: SneakersViewPage, alt: 'Imagem 5' }
 ];
 
 const colors = ['#E2E3FF', '#FFE8BC', '#FFC0BC', '#DEC699', '#E8DFCF']
@@ -93,11 +93,11 @@ export default function GalleryProduct() {
                     <div
                         key={index}
                         style={{ backgroundColor: colors[index] }}
-                        src={SneakersView}
+                        src={SneakersViewPage}
                         className={`galleryOptions ${index === activeIndex ? 'active' : ''}`}
                         onClick={() => handleSelect(index)}>
                         <img
-                            src={SneakersView}
+                            src={SneakersViewPage}
                         ></img>
                     </div>
                 ))}
