@@ -26,7 +26,7 @@ export default function ProductListingPage() {
             </div>
             <div style={{ display: 'flex' }}>
                 <FilterGroup />
-                <Section><ProductListing nomeClasse="productListingPage" display='none' margin='0' children={<ProductCard quantidade={13} />} /></Section>
+                <Section><ProductListing nomeClasse="productListingPage" display='none' margin='0' children={<ProductCard quantidade={14} />} /></Section>
             </div>
 
         </Layout>

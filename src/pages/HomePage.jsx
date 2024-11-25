@@ -14,7 +14,7 @@ export default function HomePage() {
             <Gallery />
             <SquareCollection />
             <CircleCollection />
-            <Section><ProductListing title="Produtos em alta" children={<ProductCard quantidade={6} />} /></Section>
+            <Section><ProductListing title="Produtos em alta" children={<ProductCard quantidade={8} />} /></Section>
             <SpecialOffer />
             </Layout>
         </>
