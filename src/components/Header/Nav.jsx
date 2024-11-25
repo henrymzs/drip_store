@@ -22,7 +22,7 @@ const Nav = () => {
                     className={({ isActive }) =>
                         isActive
                             ? 'text-pink-700 font-bold text-lg underline underline-offset-8 scale-110 transition-all '
-                            : 'text-dark-gray hover:underline hover:underline-offset-2 text-lg font-medium hover:scale-105 hover:text-primary transition-colors'
+                            : 'text-gray-700 no-underline hover:underline hover:underline-offset-2 text-lg font-medium hover:scale-105 hover:text-primary transition-colors'
                     }
                 >
                     Home
@@ -31,7 +31,7 @@ const Nav = () => {
                 <NavLink
                     to={"/ProductListingPage"}
                     className={({ isActive }) =>
-                    isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700  hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg hover:text-primary transition-colors no-underline'
+                    isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700 no-underline  hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg hover:text-primary transition-colors no-underline'
                     }
                 >
                     Produtos
@@ -40,7 +40,7 @@ const Nav = () => {
                 <NavLink
                     to="/construction/"
                     className={({ isActive }) =>
-                    isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700 hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg md:text-lg hover:text-primary transition-colors no-underline'
+                    isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700 no-underline hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg md:text-lg hover:text-primary transition-colors no-underline'
                     }
                 >
                     Categorias
@@ -49,7 +49,7 @@ const Nav = () => {
                 <NavLink
                     to="/myproducts/"
                     className={({ isActive }) =>
-                    isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700 hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg md:text-lg hover:text-primary transition-colors no-underline'
+                    isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700 no-underline hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg md:text-lg hover:text-primary transition-colors no-underline'
                     }
                 >
                     Meus produtos
