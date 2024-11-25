@@ -53,7 +53,7 @@ Desenvolvedores responsáveis pelo projeto:
     </td>
     <td align="center">
       <a href="https://github.com/Nathan-Mn" title="link github">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Nathan no GitHub"/><br>
+        <img src="./public/nathangithub.jpeg" width="60px;" alt="Foto do Nathan no GitHub"/><br>
         <sub>
           <b>Nathan</b>
         </sub>
