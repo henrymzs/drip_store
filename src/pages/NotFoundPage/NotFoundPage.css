@@ -5,6 +5,78 @@ body {
 .NotFoundPrincipal {
     position: absolute;
     left: 25%;
+    top: 10%;
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 50%;
+    display: grid;
+    text-align: center;
+    margin: auto;
+    padding: 20px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.NotFoundPrincipal img {
+    width: 80%; 
+    margin-bottom: 20px; 
+    max-width: 400px; 
+    height: auto; 
+}
+
+.NotFoundPrincipal span {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: var(--darkGray);
+}
+
+.NotFoundPrincipal a {
+    background-color: var(--primary);
+    transition: 0.5s;
+}
+
+.NotFoundPrincipal a button {
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.NotFoundPrincipal a button:hover {
+    background-color: var(--tertiary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background-color: #f9f8fe;
+}
+
+.NotFoundPrincipal {
+    position: absolute;
+    left: 25%;
     top: 30%;
     background-color: var(--white);
     border-radius: 10px;
@@ -13,7 +85,7 @@ body {
     text-align: center;
     margin: auto;
 
-    h1 {
+    span {
         font-weight: 800;
         font-size: 40px;
         line-height: 66px;
@@ -33,9 +105,10 @@ body {
             transition: 0.5s;
         }
     }
+    
 
 }
 
 .NotFoundPrincipal a button:hover {
     background-color: var(--tertiary);
-}
+} */

@@ -1,4 +1,6 @@
-
+import React from "react";
+import FilterComponent from "./FilterComponent";
+import "./FilterGroup.css"
 
 const Marca = [
     {

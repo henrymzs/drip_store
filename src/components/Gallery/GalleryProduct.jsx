@@ -7,7 +7,7 @@ import './GalleryProduct.css';
 import SneakersView from '../../assets/carrosel/SneakersGallery.png'
 import ArrowRight from '../../assets/carrosel/arrow-right.svg'
 import ArrowLeft from '../../assets/carrosel/arrow-left.svg'
-import Gallery from './Gallery';
+
 
 const images = [
     { src: SneakersView, alt: 'Imagem 1' },

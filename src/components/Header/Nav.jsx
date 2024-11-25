@@ -1,12 +1,8 @@
 import { NavLink, useNavigate } from "react-router-dom";
-/*duas funcionalidades do pacote react-router-dom, 
-navlink cria links de navegação com propriedades extras, da pra adicionar class especial ao link ativo
- useNavigate permite navegar entre paginas*/ 
 
 const Nav = () => {
     
     
-    // navigate agora é uma função que pode ser chamada pra redirecionar para outras rotas
     const navigate = useNavigate();
 
     
@@ -18,7 +14,7 @@ const Nav = () => {
 
             <ul className="pt-4 py-3 px-3 md:px-10 flex flex-col md:flex-row gap-5 md:gap-10 items-start justify-start">
                 
-                {/* essa tag 'p' com texto paginas aparece apenas no 767px para telas de celulares */}
+             
                 <p className="text-2xl font-medium text-dark-gray md:hidden">Páginas</p>
 
                 <NavLink
@@ -33,7 +29,7 @@ const Nav = () => {
                 </NavLink>
 
                 <NavLink
-                    to={"/products/"}
+                    to={"/ProductListingPage"}
                     className={({ isActive }) =>
                     isActive ? 'text-pink-700 font-bold underline text-lg underline-offset-8 scale-110 transition-all ' : 'text-gray-700  hover:underline hover:underline-offset-8 font-medium hover:scale-105 text-lg hover:text-primary transition-colors no-underline'
                     }
