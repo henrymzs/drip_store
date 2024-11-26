@@ -39,7 +39,7 @@ Desenvolvedores responsáveis pelo projeto:
       <a href="https://github.com/henrymzs" title="link github">
         <img src="./public/gitHenry.png" width="100px;" alt="Foto do Henry no GitHub"/><br>
         <sub>
-          <b>Henry</b>
+          <b>Henry de Oliveira Menezes</b>
         </sub>
       </a>
     </td>
@@ -47,7 +47,7 @@ Desenvolvedores responsáveis pelo projeto:
       <a href="https://github.com/IporanRM" title="link github">
         <img src="./public/gitIporan.jpeg" width="100px;" alt="Foto do Iporan no GitHub"/><br>
         <sub>
-          <b>Iporan</b>
+          <b>Iporã Alves dos Santos</b>
         </sub>
       </a>
     </td>
@@ -55,7 +55,7 @@ Desenvolvedores responsáveis pelo projeto:
       <a href="https://github.com/Nathan-Mn" title="link github">
         <img src="./public/nathangithub.jpeg" width="60px;" alt="Foto do Nathan no GitHub"/><br>
         <sub>
-          <b>Nathan</b>
+          <b>Antonio Nathan Moreno de Sousa</b>
         </sub>
       </a>
     </td>
